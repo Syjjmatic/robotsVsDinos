@@ -16,7 +16,7 @@ namespace robotsVersusDinos
         {
             
         }
-        public void DinoLoseHealth()
+        public void RobotAttDmg()
         {
             Robot robotDamage = new Robot();
             health -= robotDamage.weapon.weaponDamage;

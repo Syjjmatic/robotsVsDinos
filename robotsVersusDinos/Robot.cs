@@ -16,10 +16,11 @@ namespace robotsVersusDinos
         {
 
         }
-        public void RobotLoseHealth()
+        public void DinoAttDmg()
         {
             Dinosaur dinoDamage = new Dinosaur();
             health -= dinoDamage.attackPower;
         }
+
     }
 }
