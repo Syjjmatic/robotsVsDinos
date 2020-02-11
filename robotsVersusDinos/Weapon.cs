@@ -13,7 +13,7 @@ namespace robotsVersusDinos
 
         public Weapon()
         {
-            weaponType = "Sword";
+            weaponType = "sword";
             weaponDamage = 30;
         }
     }

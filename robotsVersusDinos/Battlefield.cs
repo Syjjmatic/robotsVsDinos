@@ -34,7 +34,7 @@ namespace robotsVersusDinos
             {
                 if (rTurn == true)
                 {
-                    Console.WriteLine(robot.name + " takes a swing at " + dino.type + "!");
+                    Console.WriteLine(robot.name + " swings his " + robot.weapon.weaponType + " at " + dino.type + "!");
                     dino.RobotAttDmg();
                     Console.WriteLine(dino.type + " takes " + robot.weapon.weaponDamage + " damage, leaving its HP at " + dino.health + "!\n");
                     rTurn = false;
